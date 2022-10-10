@@ -105,3 +105,28 @@ ul li a:hover {
 }
 
 
+/* Page about */
+
+.about-page {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-about img{
+    width: 330px;
+    margin: 70px 40px 0px 270px;
+    border-radius: 10%;
+}
+
+.text-about h1 {
+    margin: -210px 0px 15px 50px;
+    color: black;
+}
+
+.text-about p {
+    color: black;
+    max-width: 600px;
+    line-height: 150%;
+    
+}
+
