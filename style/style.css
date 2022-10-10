@@ -246,3 +246,99 @@ ul li a:hover {
     background: rgb(2,9,23);
     color: #fff;
 }
+
+
+/* blog page */
+.blog-page{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.blog-judul h1{
+    color: black;
+    position: flex;
+    justify-content: flex-start;
+    margin-top: -270px ;
+    margin-left: -140px;
+    font-size: 35px;
+
+}
+
+.blog-judul::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: -20px;
+    width: 500px;
+    height: 1px;
+    margin-right: -600px;
+    background-color: black
+    
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    margin-block: 2rem;
+    gap: 2rem;
+    
+    
+}
+
+.blog .card-blog .card-blog-header img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.card-blog {
+    display: flex;
+    flex-direction: column;
+    width: clamp(16rem, calc(16rem + 1vw), 18rem);
+    overflow: hidden;
+    box-shadow: 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #dcf5fe;
+    background: linear-gradient(to right, #7ccfdf, #fee082);
+    margin-top: 100px;
+}
+
+.card-blog-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+
+}
+
+.card-blog-body h4{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: black;
+}
+.card-blog-body p{
+    color: black;
+}
+
+.card-blog-footer{
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.akses-blog{
+    display: flex;
+    gap: .5rem;
+    
+}
+.akses-blog a{
+    color: black;
+    border-bottom: solid black;
+}
