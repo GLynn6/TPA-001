@@ -342,3 +342,47 @@ ul li a:hover {
     color: black;
     border-bottom: solid black;
 }
+
+
+/* Footer page */
+
+.footer {
+    width: 100%;
+    height: 700px;
+    overflow-x:hidden;
+}
+
+.footer-item{
+    width: 100%;
+    padding: 5px 0;
+    text-align:center;
+    background-color: rgb(2,9,23);
+}
+    
+.footer-item .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    position: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+.footer-item .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    align-items: center;
+}
+    
+.footer-item .row a:hover{
+    color:#fff;
+}
+     
+
+.footer-item .row ul {
+    margin-left: 550px;
+    align-items: center;
+}
